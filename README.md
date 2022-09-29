@@ -10,7 +10,7 @@
 
   - Slider tag
   - Calculating EMI
-  - Updating the label tags based onslide events
+  - Updating the label tags based on onslide events
 
   
   
