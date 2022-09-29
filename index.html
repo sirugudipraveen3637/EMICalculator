@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>EMI Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>EMI Calculator</h1>
+      <form action="">
+       
+        <div class="section">
+            <label class="labels">Loan Amount-</label>
+          <div class="slider"> <span>10 L</span> <input type="range" oninput="RangeSelector()" class="sliders" min="10" max="200"><span>2 Cr</span></div>
+             
+        </div>
+        <div class="section">
+          <label class="labels">Tenure</label>
+          <div class="slider"> <span>5 yrs</span> <input type="range" oninput="RangeSelector()" class="sliders" min="5" max="30"><span>30 yrs</span></div>
+      </div>
+        <div class="section">
+          <label class="labels">Rate of Interest</label>
+          <div class="slider"> <span>5%</span> <input type="range" oninput="RangeSelector()" class="sliders" min="5" max="15"><span>15%</span></div>
+      </div>
+   
+    <!-- <button id="register" class="btn" onclick="calcemi()">Submit</button> -->
+    <div class="section">
+      <label class="labels" id="output">EMI:</label>
+  </div>
+      </form>
+   
+     
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
